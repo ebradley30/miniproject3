@@ -1,0 +1,7 @@
+${PODS_ROOT}/Target Support Files/Pods-OMHSerializer-OMHSerializerUITests/Pods-OMHSerializer-OMHSerializerUITests-frameworks.sh
+${BUILT_PRODUCTS_DIR}/CorePlot/CorePlot.framework
+${BUILT_PRODUCTS_DIR}/Expecta/Expecta.framework
+${BUILT_PRODUCTS_DIR}/Granola/Granola.framework
+${BUILT_PRODUCTS_DIR}/ObjectiveSugar/ObjectiveSugar.framework
+${BUILT_PRODUCTS_DIR}/Specta/Specta.framework
+${BUILT_PRODUCTS_DIR}/VVJSONSchemaValidation/VVJSONSchemaValidation.framework
