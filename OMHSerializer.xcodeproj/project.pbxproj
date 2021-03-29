@@ -1,0 +1,810 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01D223872990A10DA1BF8A4C /* Pods_OMHSerializer_OMHSerializerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B378285D669727EEB52626A /* Pods_OMHSerializer_OMHSerializerUITests.framework */; };
+		127F63DA1C2602A07F8147B2 /* Pods_OMHSerializer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F5C1F187A5FBF281AF7F9F6 /* Pods_OMHSerializer.framework */; };
+		6248D95B85C63B384152D628 /* Pods_OMHSerializerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C6D0F174CC91C20DFDC9A87 /* Pods_OMHSerializerTests.framework */; };
+		6D8DC97C24EC934F7EACF8D7 /* Pods_OMHSerializerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74F97B1FFA9F6F9B7E7FB002 /* Pods_OMHSerializerTests.framework */; };
+		850F0703A787225D865743A7 /* Pods_OMHSerializer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 280E736F46E7CB61458C6715 /* Pods_OMHSerializer.framework */; };
+		BE0258C2260FAAC70024D307 /* OMHData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE0258C1260FAAC70024D307 /* OMHData.swift */; };
+		BE0258C7260FDE230024D307 /* HealthKitDataViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE0258C6260FDE230024D307 /* HealthKitDataViews.swift */; };
+		BE0258E12610F8170024D307 /* HealthKitGraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE0258E02610F8170024D307 /* HealthKitGraphView.swift */; };
+		BE0258E72611478E0024D307 /* LineGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE0258E62611478E0024D307 /* LineGraph.swift */; };
+		BE0E7C1B2611AD62002711CE /* HeartRateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE0E7C1A2611AD62002711CE /* HeartRateView.swift */; };
+		BE0E7C202611B02F002711CE /* DistanceCycling.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE0E7C1F2611B02F002711CE /* DistanceCycling.swift */; };
+		BE0E7C252611B0A0002711CE /* ActiveEnergyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE0E7C242611B0A0002711CE /* ActiveEnergyView.swift */; };
+		BE0E7C2A2611B116002711CE /* StepCountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE0E7C292611B116002711CE /* StepCountView.swift */; };
+		BE1A6B0F260E8513001E3235 /* OMHSerializerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1A6B0E260E8513001E3235 /* OMHSerializerApp.swift */; };
+		BE1A6B11260E8513001E3235 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1A6B10260E8513001E3235 /* ContentView.swift */; };
+		BE1A6B13260E8514001E3235 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE1A6B12260E8514001E3235 /* Assets.xcassets */; };
+		BE1A6B16260E8514001E3235 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE1A6B15260E8514001E3235 /* Preview Assets.xcassets */; };
+		BE1A6B21260E8514001E3235 /* OMHSerializerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1A6B20260E8514001E3235 /* OMHSerializerTests.swift */; };
+		BE1A6B2C260E8514001E3235 /* OMHSerializerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1A6B2B260E8514001E3235 /* OMHSerializerUITests.swift */; };
+		BE1A6B6C260E9DF6001E3235 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE1A6B6B260E9DF6001E3235 /* HealthKit.framework */; };
+		E7E9380BB5EA08BD952ED695 /* Pods_OMHSerializer_OMHSerializerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF0AD375537B82A02A255261 /* Pods_OMHSerializer_OMHSerializerUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BE1A6B1D260E8514001E3235 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE1A6B03260E8513001E3235 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE1A6B0A260E8513001E3235;
+			remoteInfo = OMHSerializer;
+		};
+		BE1A6B28260E8514001E3235 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE1A6B03260E8513001E3235 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE1A6B0A260E8513001E3235;
+			remoteInfo = OMHSerializer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		014295ECF686782F04D597FE /* Pods-OMHSerializer-OMHSerializerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OMHSerializer-OMHSerializerUITests.debug.xcconfig"; path = "Target Support Files/Pods-OMHSerializer-OMHSerializerUITests/Pods-OMHSerializer-OMHSerializerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		280E736F46E7CB61458C6715 /* Pods_OMHSerializer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_OMHSerializer.framework; path = "../Debug-iphonesimulator/Pods_OMHSerializer.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F5C1F187A5FBF281AF7F9F6 /* Pods_OMHSerializer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OMHSerializer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		74F97B1FFA9F6F9B7E7FB002 /* Pods_OMHSerializerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OMHSerializerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		79924E4C411E64EEF47B5BEE /* Pods-OMHSerializer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OMHSerializer.debug.xcconfig"; path = "Target Support Files/Pods-OMHSerializer/Pods-OMHSerializer.debug.xcconfig"; sourceTree = "<group>"; };
+		7997C4E93940C4C807DB9978 /* Pods-OMHSerializerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OMHSerializerTests.debug.xcconfig"; path = "Target Support Files/Pods-OMHSerializerTests/Pods-OMHSerializerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7B378285D669727EEB52626A /* Pods_OMHSerializer_OMHSerializerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OMHSerializer_OMHSerializerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C6D0F174CC91C20DFDC9A87 /* Pods_OMHSerializerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_OMHSerializerTests.framework; path = "../Debug-iphonesimulator/Pods_OMHSerializerTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FE30AE41FC2EB267535CF35 /* Pods-OMHSerializerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OMHSerializerTests.release.xcconfig"; path = "Target Support Files/Pods-OMHSerializerTests/Pods-OMHSerializerTests.release.xcconfig"; sourceTree = "<group>"; };
+		AE5DC89651643B9D7E11F9F2 /* Pods-OMHSerializer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OMHSerializer.release.xcconfig"; path = "Target Support Files/Pods-OMHSerializer/Pods-OMHSerializer.release.xcconfig"; sourceTree = "<group>"; };
+		B8EA1E53AF103A717C1ECCE4 /* Pods-OMHSerializer-OMHSerializerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OMHSerializer-OMHSerializerUITests.release.xcconfig"; path = "Target Support Files/Pods-OMHSerializer-OMHSerializerUITests/Pods-OMHSerializer-OMHSerializerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		BE0258C1260FAAC70024D307 /* OMHData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OMHData.swift; sourceTree = "<group>"; };
+		BE0258C6260FDE230024D307 /* HealthKitDataViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthKitDataViews.swift; sourceTree = "<group>"; };
+		BE0258E02610F8170024D307 /* HealthKitGraphView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthKitGraphView.swift; sourceTree = "<group>"; };
+		BE0258E62611478E0024D307 /* LineGraph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineGraph.swift; sourceTree = "<group>"; };
+		BE0E7C1A2611AD62002711CE /* HeartRateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartRateView.swift; sourceTree = "<group>"; };
+		BE0E7C1F2611B02F002711CE /* DistanceCycling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistanceCycling.swift; sourceTree = "<group>"; };
+		BE0E7C242611B0A0002711CE /* ActiveEnergyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActiveEnergyView.swift; sourceTree = "<group>"; };
+		BE0E7C292611B116002711CE /* StepCountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepCountView.swift; sourceTree = "<group>"; };
+		BE1A6B0B260E8513001E3235 /* OMHSerializer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OMHSerializer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE1A6B0E260E8513001E3235 /* OMHSerializerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OMHSerializerApp.swift; sourceTree = "<group>"; };
+		BE1A6B10260E8513001E3235 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BE1A6B12260E8514001E3235 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BE1A6B15260E8514001E3235 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BE1A6B17260E8514001E3235 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE1A6B1C260E8514001E3235 /* OMHSerializerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OMHSerializerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE1A6B20260E8514001E3235 /* OMHSerializerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OMHSerializerTests.swift; sourceTree = "<group>"; };
+		BE1A6B22260E8514001E3235 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE1A6B27260E8514001E3235 /* OMHSerializerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OMHSerializerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE1A6B2B260E8514001E3235 /* OMHSerializerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OMHSerializerUITests.swift; sourceTree = "<group>"; };
+		BE1A6B2D260E8514001E3235 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE1A6B6A260E9DF6001E3235 /* OMHSerializer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = OMHSerializer.entitlements; sourceTree = "<group>"; };
+		BE1A6B6B260E9DF6001E3235 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+		CF0AD375537B82A02A255261 /* Pods_OMHSerializer_OMHSerializerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_OMHSerializer_OMHSerializerUITests.framework; path = "../Debug-iphonesimulator/Pods_OMHSerializer_OMHSerializerUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE1A6B08260E8513001E3235 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				850F0703A787225D865743A7 /* Pods_OMHSerializer.framework in Frameworks */,
+				BE1A6B6C260E9DF6001E3235 /* HealthKit.framework in Frameworks */,
+				127F63DA1C2602A07F8147B2 /* Pods_OMHSerializer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE1A6B19260E8514001E3235 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6248D95B85C63B384152D628 /* Pods_OMHSerializerTests.framework in Frameworks */,
+				6D8DC97C24EC934F7EACF8D7 /* Pods_OMHSerializerTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE1A6B24260E8514001E3235 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7E9380BB5EA08BD952ED695 /* Pods_OMHSerializer_OMHSerializerUITests.framework in Frameworks */,
+				01D223872990A10DA1BF8A4C /* Pods_OMHSerializer_OMHSerializerUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1BB07A5FD85C457A480A4E3A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				79924E4C411E64EEF47B5BEE /* Pods-OMHSerializer.debug.xcconfig */,
+				AE5DC89651643B9D7E11F9F2 /* Pods-OMHSerializer.release.xcconfig */,
+				014295ECF686782F04D597FE /* Pods-OMHSerializer-OMHSerializerUITests.debug.xcconfig */,
+				B8EA1E53AF103A717C1ECCE4 /* Pods-OMHSerializer-OMHSerializerUITests.release.xcconfig */,
+				7997C4E93940C4C807DB9978 /* Pods-OMHSerializerTests.debug.xcconfig */,
+				9FE30AE41FC2EB267535CF35 /* Pods-OMHSerializerTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BE1A6B02260E8513001E3235 = {
+			isa = PBXGroup;
+			children = (
+				BE1A6B0D260E8513001E3235 /* OMHSerializer */,
+				BE1A6B1F260E8514001E3235 /* OMHSerializerTests */,
+				BE1A6B2A260E8514001E3235 /* OMHSerializerUITests */,
+				BE1A6B0C260E8513001E3235 /* Products */,
+				1BB07A5FD85C457A480A4E3A /* Pods */,
+				C4661826EFE51D12A0A5D854 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BE1A6B0C260E8513001E3235 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE1A6B0B260E8513001E3235 /* OMHSerializer.app */,
+				BE1A6B1C260E8514001E3235 /* OMHSerializerTests.xctest */,
+				BE1A6B27260E8514001E3235 /* OMHSerializerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE1A6B0D260E8513001E3235 /* OMHSerializer */ = {
+			isa = PBXGroup;
+			children = (
+				BE1A6B6A260E9DF6001E3235 /* OMHSerializer.entitlements */,
+				BE1A6B0E260E8513001E3235 /* OMHSerializerApp.swift */,
+				BE1A6B10260E8513001E3235 /* ContentView.swift */,
+				BE0258C1260FAAC70024D307 /* OMHData.swift */,
+				BE1A6B12260E8514001E3235 /* Assets.xcassets */,
+				BE1A6B17260E8514001E3235 /* Info.plist */,
+				BE1A6B14260E8514001E3235 /* Preview Content */,
+				BE0258C6260FDE230024D307 /* HealthKitDataViews.swift */,
+				BE0258E02610F8170024D307 /* HealthKitGraphView.swift */,
+				BE0E7C1A2611AD62002711CE /* HeartRateView.swift */,
+				BE0E7C242611B0A0002711CE /* ActiveEnergyView.swift */,
+				BE0E7C292611B116002711CE /* StepCountView.swift */,
+				BE0E7C1F2611B02F002711CE /* DistanceCycling.swift */,
+				BE0258E62611478E0024D307 /* LineGraph.swift */,
+			);
+			path = OMHSerializer;
+			sourceTree = "<group>";
+		};
+		BE1A6B14260E8514001E3235 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BE1A6B15260E8514001E3235 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BE1A6B1F260E8514001E3235 /* OMHSerializerTests */ = {
+			isa = PBXGroup;
+			children = (
+				BE1A6B20260E8514001E3235 /* OMHSerializerTests.swift */,
+				BE1A6B22260E8514001E3235 /* Info.plist */,
+			);
+			path = OMHSerializerTests;
+			sourceTree = "<group>";
+		};
+		BE1A6B2A260E8514001E3235 /* OMHSerializerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BE1A6B2B260E8514001E3235 /* OMHSerializerUITests.swift */,
+				BE1A6B2D260E8514001E3235 /* Info.plist */,
+			);
+			path = OMHSerializerUITests;
+			sourceTree = "<group>";
+		};
+		C4661826EFE51D12A0A5D854 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BE1A6B6B260E9DF6001E3235 /* HealthKit.framework */,
+				280E736F46E7CB61458C6715 /* Pods_OMHSerializer.framework */,
+				CF0AD375537B82A02A255261 /* Pods_OMHSerializer_OMHSerializerUITests.framework */,
+				9C6D0F174CC91C20DFDC9A87 /* Pods_OMHSerializerTests.framework */,
+				2F5C1F187A5FBF281AF7F9F6 /* Pods_OMHSerializer.framework */,
+				7B378285D669727EEB52626A /* Pods_OMHSerializer_OMHSerializerUITests.framework */,
+				74F97B1FFA9F6F9B7E7FB002 /* Pods_OMHSerializerTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE1A6B0A260E8513001E3235 /* OMHSerializer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE1A6B30260E8514001E3235 /* Build configuration list for PBXNativeTarget "OMHSerializer" */;
+			buildPhases = (
+				9D4090AB730B32DFDC7AD889 /* [CP] Check Pods Manifest.lock */,
+				BE1A6B07260E8513001E3235 /* Sources */,
+				BE1A6B08260E8513001E3235 /* Frameworks */,
+				BE1A6B09260E8513001E3235 /* Resources */,
+				A827C3DD7CE0831DC2870AE7 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OMHSerializer;
+			productName = OMHSerializer;
+			productReference = BE1A6B0B260E8513001E3235 /* OMHSerializer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BE1A6B1B260E8514001E3235 /* OMHSerializerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE1A6B33260E8514001E3235 /* Build configuration list for PBXNativeTarget "OMHSerializerTests" */;
+			buildPhases = (
+				C61CACB2FE1CD3FAD8D4C4A0 /* [CP] Check Pods Manifest.lock */,
+				BE1A6B18260E8514001E3235 /* Sources */,
+				BE1A6B19260E8514001E3235 /* Frameworks */,
+				BE1A6B1A260E8514001E3235 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE1A6B1E260E8514001E3235 /* PBXTargetDependency */,
+			);
+			name = OMHSerializerTests;
+			productName = OMHSerializerTests;
+			productReference = BE1A6B1C260E8514001E3235 /* OMHSerializerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BE1A6B26260E8514001E3235 /* OMHSerializerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE1A6B36260E8514001E3235 /* Build configuration list for PBXNativeTarget "OMHSerializerUITests" */;
+			buildPhases = (
+				D8BF31FA3184206305535CEB /* [CP] Check Pods Manifest.lock */,
+				BE1A6B23260E8514001E3235 /* Sources */,
+				BE1A6B24260E8514001E3235 /* Frameworks */,
+				BE1A6B25260E8514001E3235 /* Resources */,
+				8BECB41427B9C17D302D5D4B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE1A6B29260E8514001E3235 /* PBXTargetDependency */,
+			);
+			name = OMHSerializerUITests;
+			productName = OMHSerializerUITests;
+			productReference = BE1A6B27260E8514001E3235 /* OMHSerializerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE1A6B03260E8513001E3235 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					BE1A6B0A260E8513001E3235 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					BE1A6B1B260E8514001E3235 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = BE1A6B0A260E8513001E3235;
+					};
+					BE1A6B26260E8514001E3235 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = BE1A6B0A260E8513001E3235;
+					};
+				};
+			};
+			buildConfigurationList = BE1A6B06260E8513001E3235 /* Build configuration list for PBXProject "OMHSerializer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BE1A6B02260E8513001E3235;
+			productRefGroup = BE1A6B0C260E8513001E3235 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE1A6B0A260E8513001E3235 /* OMHSerializer */,
+				BE1A6B1B260E8514001E3235 /* OMHSerializerTests */,
+				BE1A6B26260E8514001E3235 /* OMHSerializerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE1A6B09260E8513001E3235 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE1A6B16260E8514001E3235 /* Preview Assets.xcassets in Resources */,
+				BE1A6B13260E8514001E3235 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE1A6B1A260E8514001E3235 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE1A6B25260E8514001E3235 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8BECB41427B9C17D302D5D4B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OMHSerializer-OMHSerializerUITests/Pods-OMHSerializer-OMHSerializerUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OMHSerializer-OMHSerializerUITests/Pods-OMHSerializer-OMHSerializerUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OMHSerializer-OMHSerializerUITests/Pods-OMHSerializer-OMHSerializerUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9D4090AB730B32DFDC7AD889 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OMHSerializer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A827C3DD7CE0831DC2870AE7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OMHSerializer/Pods-OMHSerializer-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OMHSerializer/Pods-OMHSerializer-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OMHSerializer/Pods-OMHSerializer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C61CACB2FE1CD3FAD8D4C4A0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OMHSerializerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D8BF31FA3184206305535CEB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OMHSerializer-OMHSerializerUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE1A6B07260E8513001E3235 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE1A6B11260E8513001E3235 /* ContentView.swift in Sources */,
+				BE0258C7260FDE230024D307 /* HealthKitDataViews.swift in Sources */,
+				BE0E7C1B2611AD62002711CE /* HeartRateView.swift in Sources */,
+				BE0258C2260FAAC70024D307 /* OMHData.swift in Sources */,
+				BE0E7C252611B0A0002711CE /* ActiveEnergyView.swift in Sources */,
+				BE0E7C202611B02F002711CE /* DistanceCycling.swift in Sources */,
+				BE0258E12610F8170024D307 /* HealthKitGraphView.swift in Sources */,
+				BE0258E72611478E0024D307 /* LineGraph.swift in Sources */,
+				BE0E7C2A2611B116002711CE /* StepCountView.swift in Sources */,
+				BE1A6B0F260E8513001E3235 /* OMHSerializerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE1A6B18260E8514001E3235 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE1A6B21260E8514001E3235 /* OMHSerializerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE1A6B23260E8514001E3235 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE1A6B2C260E8514001E3235 /* OMHSerializerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BE1A6B1E260E8514001E3235 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE1A6B0A260E8513001E3235 /* OMHSerializer */;
+			targetProxy = BE1A6B1D260E8514001E3235 /* PBXContainerItemProxy */;
+		};
+		BE1A6B29260E8514001E3235 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE1A6B0A260E8513001E3235 /* OMHSerializer */;
+			targetProxy = BE1A6B28260E8514001E3235 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BE1A6B2E260E8514001E3235 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_TESTING_SEARCH_PATHS = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = /Applications/Xcode.app/Contents/Developer/Library/Frameworks/;
+				"LD_RUNPATH_SEARCH_PATHS[arch=*]" = "";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				"OTHER_LDFLAGS[arch=*]" = "";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BE1A6B2F260E8514001E3235 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTING_SEARCH_PATHS = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = /Applications/Xcode.app/Contents/Developer/Library/Frameworks/;
+				"LD_RUNPATH_SEARCH_PATHS[arch=*]" = "";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				"OTHER_LDFLAGS[arch=*]" = "";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BE1A6B31260E8514001E3235 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79924E4C411E64EEF47B5BEE /* Pods-OMHSerializer.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = OMHSerializer/OMHSerializer.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"OMHSerializer/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				"FRAMEWORK_SEARCH_PATHS[arch=*]" = (
+					"$(inherited)",
+					"\"$(PLATFORM_DIR)/Developer/Library/Frameworks\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Expecta\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Granola\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/ObjectiveSugar\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Specta\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/VVJSONSchemaValidation\"",
+				);
+				INFOPLIST_FILE = OMHSerializer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = EBradley.OMHSerializer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BE1A6B32260E8514001E3235 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE5DC89651643B9D7E11F9F2 /* Pods-OMHSerializer.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = OMHSerializer/OMHSerializer.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"OMHSerializer/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = OMHSerializer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = EBradley.OMHSerializer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BE1A6B34260E8514001E3235 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7997C4E93940C4C807DB9978 /* Pods-OMHSerializerTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OMHSerializerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_QUOTE_LINKER_ARGUMENTS_FOR_COMPILER_DRIVER = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = EBradley.OMHSerializerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OMHSerializer.app/OMHSerializer";
+			};
+			name = Debug;
+		};
+		BE1A6B35260E8514001E3235 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FE30AE41FC2EB267535CF35 /* Pods-OMHSerializerTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OMHSerializerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_QUOTE_LINKER_ARGUMENTS_FOR_COMPILER_DRIVER = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = EBradley.OMHSerializerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OMHSerializer.app/OMHSerializer";
+			};
+			name = Release;
+		};
+		BE1A6B37260E8514001E3235 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 014295ECF686782F04D597FE /* Pods-OMHSerializer-OMHSerializerUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OMHSerializerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = EBradley.OMHSerializerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OMHSerializer;
+			};
+			name = Debug;
+		};
+		BE1A6B38260E8514001E3235 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8EA1E53AF103A717C1ECCE4 /* Pods-OMHSerializer-OMHSerializerUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OMHSerializerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = EBradley.OMHSerializerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OMHSerializer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE1A6B06260E8513001E3235 /* Build configuration list for PBXProject "OMHSerializer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE1A6B2E260E8514001E3235 /* Debug */,
+				BE1A6B2F260E8514001E3235 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE1A6B30260E8514001E3235 /* Build configuration list for PBXNativeTarget "OMHSerializer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE1A6B31260E8514001E3235 /* Debug */,
+				BE1A6B32260E8514001E3235 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE1A6B33260E8514001E3235 /* Build configuration list for PBXNativeTarget "OMHSerializerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE1A6B34260E8514001E3235 /* Debug */,
+				BE1A6B35260E8514001E3235 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE1A6B36260E8514001E3235 /* Build configuration list for PBXNativeTarget "OMHSerializerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE1A6B37260E8514001E3235 /* Debug */,
+				BE1A6B38260E8514001E3235 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BE1A6B03260E8513001E3235 /* Project object */;
+}
